@@ -1,0 +1,7 @@
+p {
+    margin: 0;
+}
+
+.components {
+    display: flex;
+}

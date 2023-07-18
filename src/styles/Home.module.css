@@ -1,0 +1,24 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text {
+    color: #0000006d;
+}
+
+.a {
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.btn {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 5px;
+    background-color: #3fada7;
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 35%;
+    min-width: 30%;
+    max-height: 60%;
+    max-width: 40%;
+    padding: 1rem;
+}
+
+.warningSignal {
+    font-size: 5rem;
+    color: #f44336;
+    margin: 3rem 0;
+}
+
+.closeBtn {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+    width: 70%;
+    padding: 1rem 0;
+}

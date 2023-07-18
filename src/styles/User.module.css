@@ -1,0 +1,87 @@
+.component {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-right: 1px solid #0000002c;
+    height: 98.2%;
+    width: 30%;
+    padding: 0rem 0 1rem;
+    transition: 1s;
+    transform: translateX(-100%);
+}
+
+.component.open {
+    transform: translateX(0);
+}
+
+.userHead {
+    background-color: #3fada7;
+    width: 92%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.backArrowBtn {
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.userImg {
+    width: 50%;
+    height: 22%;
+    border-radius: 50%;
+}
+
+.userInfos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.userInfos h1 {
+    margin: 1rem 0 3rem;
+    align-self: center;
+}
+
+.field {
+    align-self: flex-start;
+    align-items: center;
+    padding: 0 2.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.field>p:first-child {
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.field>span>p {
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.field>span {
+    display: flex;
+    align-items: center;
+}
+
+.fieldInput {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.editBtn {
+    background-color: transparent;
+    border: none;
+    margin-left: 2rem;
+    font-size: 18px;
+    cursor: pointer;
+}

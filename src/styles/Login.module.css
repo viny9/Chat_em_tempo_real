@@ -1,0 +1,39 @@
+.component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 15px 1px #0000002e, -1px -1px 15px 1px #00000007;
+    width: 30%;
+    padding: 2rem;
+}
+
+.signUpBtn {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 5px;
+    background-color: #3fada7;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.signUpBtn:disabled {
+    background-color: #3fada735;
+}
+
+.link {
+    margin-top: 2rem;
+    color: #3fada7;
+    font-size: 16px;
+}
+
+.a {
+    margin-top: 2rem;
+    width: 80%;
+}

@@ -1,0 +1,220 @@
+p {
+    margin: 0;
+}
+
+.chatComponent {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.chatHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    /* border-bottom: 1px solid #0000003b; */
+    height: 8%;
+    box-shadow:
+        5px 2px 10px rgba(0, 0, 0, 0.15),
+        inset -2px 0px 0px #fff;
+}
+
+.chatHead span {
+    display: flex;
+    align-items: center;
+}
+
+.chatHead img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.chatHead h1 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.settingsBtn {
+    padding: 10px 12px;
+}
+
+.settingsBtn:hover {
+    border-radius: 50%;
+    background-color: #0000001a;
+}
+
+.chatOptionMenu {
+    display: none;
+    position: absolute;
+    right: 7%;
+    top: 6%;
+    width: 10rem;
+    padding: 10px 0;
+    background-color: #fff;
+    opacity: 0;
+    box-shadow: 0px 2px 10px -2px #00000031;
+    transition: ease-in-out 0.4s;
+    overflow: hidden;
+}
+
+.chatOptionMenu.open {
+    display: flex;
+    opacity: 100%;
+}
+
+.chatOptionMenu ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.chatOptionMenu button {
+    text-align: start;
+    padding: 1rem;
+    font-size: 15px;
+    width: 100%;
+}
+
+.chatOptionMenu button:hover {
+    background-color: #00000013;
+}
+
+.messagesContainer {
+    height: 80%;
+    padding: 1rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.message {
+    max-width: 35%;
+    min-width: 3%;
+    padding: 15px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.messageHour {
+    align-self: flex-end;
+    color: #00000081;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.messageHour#otherPerson {
+    align-self: flex-start;
+}
+
+.you {
+    border-top-right-radius: 0;
+    align-self: flex-end;
+    background-color: #0081ff;
+    color: #FFF;
+}
+
+.otherPerson {
+    border-top-left-radius: 0;
+    align-self: flex-start;
+    background-color: #e0e0e0;
+}
+
+.imgMessageContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border-radius: 0.5rem;
+}
+
+.cancelIcon {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cancelIcon:hover {
+    color: red;
+}
+
+.imgMessage {
+    border-radius: 0.5rem;
+    width: 30rem;
+}
+
+.chatFooterContainer {
+    position: absolute;
+    bottom: 10px;
+    left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.inputContainer input {
+    width: 100%;
+    padding: 1.2rem 1rem;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.inputContainer .icons {
+    font-size: 22px;
+    color: #00000072;
+}
+
+.inputContainer label {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 1rem 0.5rem;
+    margin-inline: 0.5rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sendIconBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0081ff;
+    color: #fff;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.sendIconBtn:disabled {
+    background-color: #f1f1f1;
+    color: #00000072;
+}
+
+.sendIcon {
+    font-size: 20px;
+}
