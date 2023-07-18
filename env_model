@@ -1,0 +1,7 @@
+REACT_APP_API_KEY = "Api key value",
+REACT_APP_AUTH_DOMAIN = "Auth domain value",
+REACT_APP_DATABASE_URL = "database url value",
+REACT_APP_PROJECT_ID = "project id value",
+REACT_APP_STORAGE_BUCKET = "storage bucket value",
+REACT_APP_MESSAGING_SENDER_ID = "messaging sender id value",
+REACT_APP_APP_ID = "app id value"

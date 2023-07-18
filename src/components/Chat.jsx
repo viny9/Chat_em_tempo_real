@@ -22,6 +22,7 @@ const Chat = () => {
     const container = document.querySelector('#messagesContainer ')
 
     useEffect(() => {
+        console.log(process.env);
         if (location.state.id !== '') {
             getChatMessages(combinedId)
             getChatInfos(combinedId)
